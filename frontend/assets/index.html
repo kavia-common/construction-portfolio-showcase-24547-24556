@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>InDesign — Interior & Exterior Portfolio</title>
+  <meta name="description" content="Interior and exterior design portfolio showcasing projects, programs, and mentorship. Ocean Professional theme." />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="page">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="header" role="banner" aria-label="Primary">
+    <div class="container header__inner">
+      <div class="header__brand">
+        <a href="#" class="brand brand--link" aria-label="InDesign Home">InDesign</a>
+      </div>
+
+      <button class="header__menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu">
+        <span class="header__menu-bars" aria-hidden="true"></span>
+        <span class="header__menu-label">Menu</span>
+      </button>
+
+      <nav class="nav header__nav" aria-label="Primary navigation">
+        <ul id="primary-navigation" class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#gallery">Our Gallery</a></li>
+          <li class="nav__item"><a class="nav__link" href="#pricing">Pricing</a></li>
+          <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__cta">
+        <a href="#contact" class="btn btn--primary">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="main" role="main">
+    <!-- Hero / Intro -->
+    <section class="section hero" id="home" aria-labelledby="hero-heading">
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <p class="eyebrow hero__eyebrow" aria-hidden="true">InDesign Studio</p>
+          <p class="body hero__intro">We craft functional, beautiful living spaces tailored to your unique taste and lifestyle. Explore our recent work and programs.</p>
+          <h1 id="hero-heading" class="display-xxl hero__display">
+            Interi<br />Design
+          </h1>
+        </div>
+
+        <figure class="hero__media">
+          <img src="/assets/figmaimages/figma_image_8_15.png" alt="Living room interior, square image" class="media media--square" />
+          <figcaption class="sr-only">A square view of a modern living room interior</figcaption>
+        </figure>
+
+        <aside class="hero__aside" aria-label="Recent work">
+          <p class="eyebrow">Our Recent Work</p>
+          <h2 class="heading-m hero__sub">We will make these unique tastes of yours a design reality!</h2>
+          <a href="#gallery" class="btn btn--primary btn--sm">View Project</a>
+        </aside>
+
+        <figure class="hero__secondary-media">
+          <img src="/assets/figmaimages/figma_image_8_17.png" alt="Modern interior vignette" class="media media--square" />
+          <figcaption class="sr-only">Vignette of modern interior details</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Who We Are -->
+    <section class="section who" id="about" aria-labelledby="who-title">
+      <div class="container who__grid">
+        <figure class="who__media">
+          <img src="/assets/figmaimages/figma_image_8_25.png" alt="Interior portrait photograph" class="media" />
+          <figcaption class="sr-only">Portrait style photograph of interior decor</figcaption>
+        </figure>
+
+        <div class="who__content">
+          <p class="eyebrow">WHO WE ARE</p>
+          <h2 id="who-title" class="display-xl">Exterior &amp;<br />Interior</h2>
+          <p class="body">We are a multidisciplinary team delivering thoughtful interior and exterior design solutions. Our approach blends aesthetics with practicality, enhancing the way people live and work within their spaces.</p>
+          <a href="#about-details" class="btn btn--ghost">read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Program + Mosaic -->
+    <section class="section program" id="services" aria-labelledby="program-title">
+      <div class="container program__grid">
+        <div class="program__left">
+          <h2 id="program-title" class="display-l">Interior Design<br />Program.</h2>
+
+          <div class="program__pair program__pair--one">
+            <div class="program__counter" aria-label="Item one">/01</div>
+            <p class="body">A foundations-first curriculum to guide you through spatial planning, materials, lighting, and styling—building confidence from concept to completion.</p>
+          </div>
+
+          <div class="program__pair program__pair--two">
+            <div class="program__counter" aria-label="Item two">02/</div>
+            <p class="body">Hands-on projects and mentoring ensure you develop a robust portfolio that reflects your voice and capability to execute real-world briefs.</p>
+          </div>
+
+          <div class="program__mosaic">
+            <figure class="program__tile program__tile--a">
+              <img src="/assets/figmaimages/figma_image_8_34.png" alt="Interior detail wide" class="media" />
+              <figcaption class="sr-only">Wide interior detail</figcaption>
+            </figure>
+            <figure class="program__tile program__tile--b">
+              <img src="/assets/figmaimages/figma_image_8_43.png" alt="Interior detail tile" class="media" />
+              <figcaption class="sr-only">Smaller interior detail tile</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="program__right">
+          <figure class="program__feature">
+            <img src="/assets/figmaimages/figma_image_8_30.png" alt="Wide modern interior" class="media" />
+            <figcaption class="sr-only">A wide view of modern interior design</figcaption>
+          </figure>
+
+          <h3 class="display-l program__headline">Design Unique And<br />Functional Spaces</h3>
+          <p class="body">From creative ideation to technical execution, we help you address spatial problems with clarity and craft.</p>
+          <p class="body">Learn frameworks for flow, proportion, and composition that scale from small rooms to holistic environments.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mentorship / Career Course -->
+    <section class="section mentorship" id="pricing" aria-labelledby="mentorship-title">
+      <div class="container mentorship__wrap">
+        <h2 id="mentorship-title" class="heading-l mentorship__title">Our Mentorship Program</h2>
+
+        <div class="mentorship__grid">
+          <div class="mentorship__left">
+            <p class="heading-m mentorship__subtitle">Career Course</p>
+            <p class="body">Personalized guidance to accelerate your growth in interior design. Gain industry insights, best practices, and portfolio polish with practical, real-world tasks.</p>
+
+            <div class="price price--stack">
+              <div class="price__value" aria-label="Price">Rs. 25,000/-</div>
+              <div class="price__tag">Introduction Price!</div>
+            </div>
+
+            <a href="#book" class="btn btn--primary btn--lg">Book Now</a>
+          </div>
+
+          <div class="mentorship__right" aria-label="Program details">
+            <div class="detail">
+              <div class="detail__title">Certification</div>
+              <div class="detail__desc">Certified Interior Decorator</div>
+            </div>
+            <div class="detail">
+              <div class="detail__title">Course Pace</div>
+              <div class="detail__desc">Study at flexible Pace</div>
+            </div>
+            <div class="detail">
+              <div class="detail__title">Duration</div>
+              <div class="detail__desc">4 Month</div>
+            </div>
+            <div class="detail">
+              <div class="detail__title">Course form</div>
+              <div class="detail__desc">100% Online</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Collage imagery behind/around -->
+        <div class="mentorship__collage" aria-hidden="true">
+          <img class="collage collage--a" src="/assets/figmaimages/figma_image_8_72.png" alt="Decor portrait image" />
+          <img class="collage collage--b" src="/assets/figmaimages/figma_image_8_73.png" alt="Room corner portrait" />
+          <img class="collage collage--c" src="/assets/figmaimages/figma_image_8_74.png" alt="Decor portrait tall" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA with Image -->
+    <section class="section cta" aria-labelledby="cta-title">
+      <div class="container cta__grid">
+        <div class="cta__content">
+          <h2 id="cta-title" class="heading-l">Let’s Work together...</h2>
+          <a href="#contact" class="btn btn--primary">Let’s Chat</a>
+        </div>
+        <figure class="cta__media">
+          <img src="/assets/figmaimages/figma_image_8_79.png" class="media" alt="Office/meeting interior" />
+          <figcaption class="sr-only">A meeting space showcasing contemporary design</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <div class="brand brand--footer">InDesign</div>
+        <p class="footer__copyright">Copyright © 2024 InDesign</p>
+      </div>
+
+      <form class="footer__newsletter" action="#" method="post" aria-label="Newsletter sign up">
+        <h3 class="footer__news-title">Sign Up Our News Latter</h3>
+        <label for="newsletter-email" class="sr-only">Enter Your Email Address</label>
+        <div class="underline-input">
+          <input id="newsletter-email" class="underline-input__field" type="email" placeholder="Enter Your Email Address" aria-describedby="newsletter-help" />
+          <button class="underline-input__submit" type="submit" aria-label="Submit email">
+            ➔
+          </button>
+        </div>
+        <p id="newsletter-help" class="sr-only">Press enter or click the arrow to subscribe</p>
+      </form>
+
+      <nav class="footer__links" aria-label="Footer links">
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#home">Home</a></li>
+          <li><a class="footer__link" href="#about">About</a></li>
+          <li><a class="footer__link" href="#gallery">Gallery</a></li>
+          <li><a class="footer__link" href="#services">Our Services</a></li>
+        </ul>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#contact">Contact Us</a></li>
+          <li><a class="footer__link" href="#privacy">Privacy Policy</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social" aria-label="Social media">
+        <a class="footer__social-link" href="#" aria-label="Facebook">FB</a>
+        <a class="footer__social-link" href="#" aria-label="Twitter">TW</a>
+        <a class="footer__social-link" href="#" aria-label="LinkedIn">IN</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
